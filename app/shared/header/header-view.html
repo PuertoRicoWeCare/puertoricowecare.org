@@ -1,0 +1,26 @@
+<div data-collapse="medium" data-animation="default" data-duration="400" class="navigation-bar w-nav">
+        <div class="w-container">
+            <a href="/" class="brand-link w-nav-brand">
+                <h1 class="brand-text" style="font-size: 10px">Puerto Rico We Care</h1>
+            </a>
+            <nav role="navigation" class="navigation-menu w-nav-menu">
+                <form id="paypalform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <a href="Initiatives/" class="navigation-link w-nav-link">Initiatives</a>
+                    <a href="About/" class="navigation-link w-nav-link">About</a>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="349DYUTSHJKU4">
+                    <!-- 
+                        The Paypal button uses the style float: left to make the button show on the left 
+                        for both the normal menu and the mobile hamburger menu othwer wise shows in the 
+                        center of the the hamburger menu.
+                    -->
+                    <input type="image" class="navigation-link w-nav-link" style="float:left" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
+                        border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </nav>
+            <div class="hamburger-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
