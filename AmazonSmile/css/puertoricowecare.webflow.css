@@ -6,6 +6,11 @@ body {
   line-height: 20px;
 }
 
+a:hover {
+  text-decoration: none;
+  text-decoration-color: none'
+}
+
 h1 {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -92,6 +97,7 @@ p {
 
 .button:hover {
   background-color: #2e9dff;
+  color: #fff;
 }
 
 .button.w--current {
